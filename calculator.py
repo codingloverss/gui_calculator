@@ -1,5 +1,4 @@
 from tkinter import *
-from tkinter import ttk
 class Calculator:
     def __init__(self, cal):
         cal.title("GUI Calculator")
@@ -28,6 +27,4 @@ class Calculator:
                 index+=1
         cal.mainloop()
 cal = Tk()
-s=ttk.Style()
-s.theme_use('alt')
 Calculator(cal)
